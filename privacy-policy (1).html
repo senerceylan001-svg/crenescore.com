@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Crenes Core</title>
+  <meta name="description" content="Privacy Policy for Crenes Core mobile games and apps including CuppoTap."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--bg:#0b0c14;--surface:#12141f;--card:#1a1d2e;--border:#252840;--accent:#e96c2f;--text:#e8eaf0;--muted:#7a7f9a;--white:#ffffff;--r:14px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+
+    nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:16px 6vw;background:rgba(11,12,20,0.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+    .nav-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;color:var(--white);text-decoration:none}
+    .nav-logo span{color:var(--accent)}
+    .nav-back{color:var(--muted);text-decoration:none;font-size:.88rem;font-weight:500;display:flex;align-items:center;gap:6px;transition:color .2s}
+    .nav-back:hover{color:var(--white)}
+
+    .lang-bar{display:flex;justify-content:center;gap:10px;padding:20px 6vw 0;margin-top:80px}
+    .lang-btn{background:transparent;border:1.5px solid var(--border);color:var(--muted);padding:7px 22px;border-radius:20px;cursor:pointer;font-size:.88rem;font-family:'Inter',sans-serif;font-weight:500;transition:all .2s}
+    .lang-btn.active,.lang-btn:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+
+    main{max-width:780px;margin:0 auto;padding:48px 6vw 80px}
+
+    .pp-header{margin-bottom:40px}
+    .eyebrow{font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+    h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;letter-spacing:-1px;color:var(--white);margin-bottom:10px}
+    .updated{font-size:.82rem;color:var(--muted);margin-bottom:6px}
+    .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+    .badge{font-size:.72rem;font-weight:600;padding:4px 12px;border-radius:20px;background:rgba(233,108,47,.12);color:var(--accent);border:1px solid rgba(233,108,47,.2)}
+
+    .pp-block{margin-bottom:36px;padding:28px;background:var(--card);border:1px solid var(--border);border-radius:var(--r)}
+    .pp-block h2{font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:600;color:var(--white);margin-bottom:12px;padding-left:12px;border-left:3px solid var(--accent)}
+    .pp-block p{color:var(--muted);font-size:.92rem;line-height:1.75;margin-bottom:10px}
+    .pp-block p:last-child{margin-bottom:0}
+    .pp-block ul{color:var(--muted);font-size:.92rem;line-height:1.75;padding-left:20px;margin-bottom:10px}
+    .pp-block ul li{margin-bottom:5px}
+    .pp-block a{color:var(--accent);text-decoration:none}
+    .pp-block a:hover{text-decoration:underline}
+    strong.hl{color:var(--text)}
+
+    footer{border-top:1px solid var(--border);padding:32px 6vw;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+    .footer-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1rem;color:var(--white)}
+    .footer-logo span{color:var(--accent)}
+    .footer-links{display:flex;gap:20px}
+    .footer-links a{color:var(--muted);font-size:.85rem;text-decoration:none;transition:color .2s}
+    .footer-links a:hover{color:var(--text)}
+    .footer-copy{color:var(--muted);font-size:.78rem}
+    .hidden{display:none}
+
+    @media(max-width:600px){
+      main{padding:32px 5vw 60px}
+      .pp-block{padding:20px}
+      footer{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html"><span>Crenes</span> Core</a>
+  <a class="nav-back" href="index.html">← Back to home</a>
+</nav>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="showLang('en',this)">English</button>
+  <button class="lang-btn" onclick="showLang('tr',this)">Türkçe</button>
+</div>
+
+<!-- ===== ENGLISH ===== -->
+<div id="lang-en">
+<main>
+  <div class="pp-header">
+    <p class="eyebrow">Legal</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 16, 2025</p>
+    <p class="updated">Applies to: CuppoTap (Android & iOS) and all Crenes Core products</p>
+    <div class="badges">
+      <span class="badge">✅ Google Play</span>
+      <span class="badge">✅ Apple App Store</span>
+      <span class="badge">✅ GDPR</span>
+      <span class="badge">✅ COPPA</span>
+      <span class="badge">✅ KVKK</span>
+    </div>
+  </div>
+
+  <div class="pp-block">
+    <h2>Overview</h2>
+    <p>This Privacy Policy describes how <strong class="hl">Crenes Core</strong> ("we", "us", "our") handles information when you use our mobile products, including the game CuppoTap, coming soon to Google Play and the Apple App Store. By downloading or using our products, you agree to the practices described in this policy.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>1. Information we collect</h2>
+    <p>We do <strong class="hl">not</strong> directly collect, store, or share any personally identifiable information (PII). Our apps do not require account registration or login.</p>
+    <p>However, our apps use <strong class="hl">Google AdMob</strong> to display advertisements. AdMob may automatically collect:</p>
+    <ul>
+      <li>Device identifiers (Advertising ID / IDFA)</li>
+      <li>IP address and approximate location (country/region level)</li>
+      <li>Device type, operating system version, and language</li>
+      <li>Ad interaction data (impressions, clicks, view duration)</li>
+    </ul>
+    <p>This data is collected and processed by Google LLC under their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>2. How we use information</h2>
+    <p>We use AdMob solely to display ads within our apps (banner, interstitial, and rewarded ads). We do not use any collected data for profiling, selling to third parties, or any purpose beyond operating our products.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>3. Third-party services</h2>
+    <p>Our apps integrate <strong class="hl">Google AdMob</strong> only — an advertising network by Google LLC.</p>
+    <ul>
+      <li>Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+      <li>Data Processing Terms: <a href="https://business.safety.google/adsprocessorterms/" target="_blank">business.safety.google/adsprocessorterms</a></li>
+    </ul>
+    <p>We do not integrate analytics SDKs, crash reporting tools, or social media platforms.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>4. App Tracking Transparency (iOS)</h2>
+    <p>On iOS 14.5 and later, our app may display Apple's App Tracking Transparency (ATT) prompt requesting permission to track your activity across apps and websites. If you deny permission, you will still see ads — just not personalized ones.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>5. Children's privacy (COPPA)</h2>
+    <p>Our apps are rated for users aged <strong class="hl">13 and older</strong>. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through our app, please contact us immediately and we will take appropriate action.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>6. Data retention</h2>
+    <p>We do not store any personal data on our own servers. Data collected by AdMob is subject to Google's own retention and deletion policies. You may request deletion via <a href="https://myaccount.google.com/" target="_blank">Google Account settings</a>.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>7. Your rights (GDPR / KVKK)</h2>
+    <p>If you are located in the EU or Turkey, you may have rights including:</p>
+    <ul>
+      <li>Right to access your personal data</li>
+      <li>Right to request correction or deletion</li>
+      <li>Right to object to or restrict processing</li>
+      <li>Right to data portability</li>
+    </ul>
+    <p>For data processed by AdMob, use <a href="https://myaccount.google.com/" target="_blank">Google's privacy controls</a>. For other requests, contact us below.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>8. Opt-out of personalized ads</h2>
+    <ul>
+      <li><strong class="hl">Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
+      <li><strong class="hl">iOS:</strong> Settings → Privacy & Security → Tracking → disable for our app</li>
+    </ul>
+  </div>
+
+  <div class="pp-block">
+    <h2>9. Security</h2>
+    <p>We implement reasonable technical measures to protect our products. However, no method of transmission over the internet is 100% secure.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>10. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this page. Continued use of our products after changes constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>11. Contact</h2>
+    <p>📧 <a href="mailto:crenes.core@gmail.com">crenes.core@gmail.com</a><br/>
+    🌐 <a href="https://crenescore.com">crenescore.com</a></p>
+  </div>
+</main>
+</div>
+
+<!-- ===== TÜRKÇE ===== -->
+<div id="lang-tr" class="hidden">
+<main>
+  <div class="pp-header">
+    <p class="eyebrow">Yasal</p>
+    <h1>Gizlilik Politikası</h1>
+    <p class="updated">Son güncelleme: 16 Haziran 2025</p>
+    <p class="updated">Kapsam: CuppoTap (Android & iOS) ve tüm Crenes Core ürünleri</p>
+    <div class="badges">
+      <span class="badge">✅ Google Play</span>
+      <span class="badge">✅ Apple App Store</span>
+      <span class="badge">✅ GDPR</span>
+      <span class="badge">✅ COPPA</span>
+      <span class="badge">✅ KVKK</span>
+    </div>
+  </div>
+
+  <div class="pp-block">
+    <h2>Genel Bakış</h2>
+    <p>Bu Gizlilik Politikası, <strong class="hl">Crenes Core</strong> ("biz", "bizim") olarak mobil ürünlerimizi (CuppoTap dahil) kullandığınızda bilgilerinizin nasıl işlendiğini açıklar. Ürünlerimizi indirerek veya kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>1. Topladığımız bilgiler</h2>
+    <p>Biz doğrudan herhangi bir kişisel tanımlayıcı bilgi <strong class="hl">toplamıyor, saklamıyor veya paylaşmıyoruz</strong>. Uygulamalarımız hesap kaydı veya giriş gerektirmez.</p>
+    <p>Ancak uygulamalarımız reklam göstermek amacıyla <strong class="hl">Google AdMob</strong> kullanmaktadır. AdMob otomatik olarak şunları toplayabilir:</p>
+    <ul>
+      <li>Cihaz tanımlayıcıları (Reklam Kimliği / IDFA)</li>
+      <li>IP adresi ve yaklaşık konum (ülke/bölge düzeyi)</li>
+      <li>Cihaz türü, işletim sistemi sürümü ve dil</li>
+      <li>Reklam etkileşim verileri (gösterim, tıklama, izleme süresi)</li>
+    </ul>
+    <p>Bu veriler Google LLC tarafından kendi <a href="https://policies.google.com/privacy?hl=tr" target="_blank">Gizlilik Politikası</a> kapsamında işlenir.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>2. Bilgileri nasıl kullanıyoruz</h2>
+    <p>AdMob'u yalnızca uygulama içi reklam (banner, geçiş reklamı, ödüllü reklam) göstermek amacıyla kullanıyoruz. Toplanan verileri profilleme, üçüncü taraflara satış veya ürünlerimizi işletmek dışında herhangi bir amaç için kullanmıyoruz.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>3. Üçüncü taraf hizmetler</h2>
+    <p>Uygulamalarımız yalnızca <strong class="hl">Google AdMob</strong> entegre etmektedir. Analitik SDK'sı, kilitlenme raporlama aracı veya sosyal medya platformu kullanmıyoruz.</p>
+    <ul>
+      <li>Gizlilik Politikası: <a href="https://policies.google.com/privacy?hl=tr" target="_blank">policies.google.com/privacy</a></li>
+    </ul>
+  </div>
+
+  <div class="pp-block">
+    <h2>4. Uygulama İzleme Şeffaflığı (iOS)</h2>
+    <p>iOS 14.5 ve sonrasında uygulamalarımız, çapraz uygulama takibi için ATT izni talep edebilir. İzni reddederseniz reklam görmeye devam edersiniz, ancak reklamlar kişiselleştirilmez.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>5. Çocukların gizliliği (COPPA)</h2>
+    <p>Uygulamalarımız <strong class="hl">13 yaş ve üzeri</strong> kullanıcılara yöneliktir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz. Böyle bir durum fark ederseniz lütfen bizimle iletişime geçin.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>6. Veri saklama</h2>
+    <p>Kendi sunucularımızda kişisel veri saklamıyoruz. AdMob tarafından toplanan veriler Google'ın politikalarına tabidir. <a href="https://myaccount.google.com/" target="_blank">Google Hesabı ayarları</a> üzerinden silme talebinde bulunabilirsiniz.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>7. Haklarınız (KVKK / GDPR)</h2>
+    <p>Türkiye'de ikamet ediyorsanız KVKK kapsamında şu haklara sahipsiniz:</p>
+    <ul>
+      <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+      <li>Düzeltme veya silme talep etme</li>
+      <li>İşlemeye itiraz etme</li>
+      <li>Verilerin aktarıldığı üçüncü kişileri öğrenme</li>
+    </ul>
+    <p>AdMob verileri için Google gizlilik kontrollerini, diğer talepler için aşağıdaki iletişim adresimizi kullanabilirsiniz.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>8. Kişiselleştirilmiş reklamı kapatma</h2>
+    <ul>
+      <li><strong class="hl">Android:</strong> Ayarlar → Google → Reklamlar → Reklam Kişiselleştirmeyi Devre Dışı Bırak</li>
+      <li><strong class="hl">iOS:</strong> Ayarlar → Gizlilik ve Güvenlik → İzleme → uygulamayı devre dışı bırak</li>
+    </ul>
+  </div>
+
+  <div class="pp-block">
+    <h2>9. Güvenlik</h2>
+    <p>Ürünlerimizi korumak için makul teknik önlemler alıyoruz. Ancak internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>10. Politika değişiklikleri</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Değişiklikler sayfanın üstündeki tarih güncellenerek yansıtılır. Ürünlerimizi kullanmaya devam etmeniz güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+  </div>
+
+  <div class="pp-block">
+    <h2>11. İletişim</h2>
+    <p>📧 <a href="mailto:crenes.core@gmail.com">crenes.core@gmail.com</a><br/>
+    🌐 <a href="https://crenescore.com">crenescore.com</a></p>
+  </div>
+</main>
+</div>
+
+<footer>
+  <div class="footer-logo"><span>Crenes</span> Core</div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#cuppotap">CuppoTap</a>
+    <a href="mailto:crenes.core@gmail.com">Contact</a>
+  </div>
+  <div class="footer-copy">&copy; 2025 Crenes Core. All rights reserved.</div>
+</footer>
+
+<script>
+  function showLang(lang, btn) {
+    document.getElementById('lang-en').classList.add('hidden');
+    document.getElementById('lang-tr').classList.add('hidden');
+    document.getElementById('lang-' + lang).classList.remove('hidden');
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
